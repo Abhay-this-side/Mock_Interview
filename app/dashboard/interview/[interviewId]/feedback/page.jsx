@@ -36,7 +36,7 @@ function Feedback({ params }) {
         <>
           <h2 className='text-3xl font-bold text-green-500'>Congratulation!</h2>
           <h2 className='font-bold text-2xl text'>Here is your interview feedback</h2>
-          <h2 className='text-blue-800 text-lg my-3'>Your overall interview rating: <strong>7/10</strong></h2>
+          <h2 className='text-blue-800 text-lg my-3'>Your overall interview rating: <strong>2/10</strong></h2>
           <h2 className='text-sm text-gray-500'>Find below your interview questions with correct answers with feedback</h2>
           {feedbackList && feedbackList.map((item, index) => (
             <Collapsible key={index} className='mt-7'>
